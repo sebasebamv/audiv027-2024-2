@@ -11,7 +11,8 @@
 - Para que un cuadro esté en rojo se coloca: *(255, 0, 0)*
 - siempre es:
 
- let captura;
+``` javascript
+let captura;
 
 let opciones = {
   video: {
@@ -43,7 +44,7 @@ function windowResized() {
 function fantasia() {
   console.log("fantasiaaa");
 }
-
+```
 - Acabamos de aprender a hacer un elemento para catura de audio y video.
 
 
