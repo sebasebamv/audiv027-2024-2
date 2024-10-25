@@ -12,7 +12,9 @@
 - siempre es:
 
  function () {
+ 
    console.log()
+   
    }
 
 - Acabamos de aprender a hacer un elemento para catura de audio y video.
