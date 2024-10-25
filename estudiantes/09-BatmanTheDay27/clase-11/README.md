@@ -9,7 +9,8 @@
 - Arturo Castro, mantenía OpenFrameworks el mismo y hace poco abandonó el software.
 
 - Para que un cuadro esté en rojo se coloca: *(255, 0, 0)*
-- siempre es:
+
+  ejemplo de código:
 
 ``` javascript
 let captura;
