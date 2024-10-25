@@ -14,6 +14,8 @@ Arturo castro era desarrollador  pero sin embargo termino cerrando su cuenta den
 
 como usar javascript en el celular 
 
+que es la webcam para el celu compu y la web
+
 
 
 
