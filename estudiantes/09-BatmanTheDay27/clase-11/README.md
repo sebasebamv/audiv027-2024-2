@@ -8,4 +8,4 @@
 
 - Arturo Castro, mantenía OpenFrameworks el mismo y hace poco abandonó el software.
 
-- 
+- para que un cuadro esté en rojo se coloca: *(255, 0, 0)*
