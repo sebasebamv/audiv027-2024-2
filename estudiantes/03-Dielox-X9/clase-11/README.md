@@ -55,11 +55,11 @@ function fantasia(){
 }
 ```
 ### Investigué bien el como invertir la cámara y esta es la explicación de lo averiguado:
-- Las líneas **"push"** y **"pop"** su función por asi decirlo es agrupar ciertas lineas de código como se ven en el código de ejemplo
+- Las líneas **"push"** y **"pop"** su función por asi decirlo es agrupar ciertas lineas de código como se ven en el código de ejemplo.
 
-- La línea **"translate"** lo que hace es desplazar el punto de origen del plano 2D a uno predeterminado
+- La línea **"translate"** lo que hace es desplazar el punto de origen del plano 2D a uno predeterminado.
 
-- Para invertir la cámara frontal utilizamos la linea **"scale(-1, 1)"** esto para que el eje X se vea espejado, pero utilizando la relación de aspecto ya pre establecida 
+- Para invertir la cámara frontal utilizamos la linea **"scale(-1, 1)"** esto para que el eje X se vea espejado, pero utilizando la relación de aspecto ya pre establecida.
 
 ``` javascript
 function draw() {
