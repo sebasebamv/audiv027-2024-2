@@ -16,8 +16,7 @@ como usar javascript en el celular
 
 que es la webcam para el celu compu y la web
 
-
-
+World Wide Web Consortium
 
 
 
