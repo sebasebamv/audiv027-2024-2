@@ -11,11 +11,38 @@
 - Para que un cuadro esté en rojo se coloca: *(255, 0, 0)*
 - siempre es:
 
- function () {
- 
-   console.log()
-   
-   }
+ let captura;
+
+let opciones = {
+  video: {
+    facingMode: "environment",
+  },
+  audio: false,
+};
+
+
+function setup() {
+  createCanvas(windowWidth / windowHeight);
+  console.log(windowWidth);
+  captura = createCapture(opciones);
+  captura.hide();
+  image(captura, 0, 0);
+}
+
+function draw() {
+  background(255, 0, 0);
+  // image(captura, mouseX, mouseY);
+  image(captura, 0, 0, windowWidth, windowHeight);
+}
+
+function windowResized() {
+  console.log("cambio la pantalla");
+  resizeCanvas(windowWidth / windowHeight);
+}
+
+function fantasia() {
+  console.log("fantasiaaa");
+}
 
 - Acabamos de aprender a hacer un elemento para catura de audio y video.
 
